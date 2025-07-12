@@ -247,6 +247,7 @@ CONFIG_MC_PLNX_IMAGES_LOCATION="${PROOT}/images/${BB_CURRENT_MC}"
 #
 # TMPDIR Location
 #
+CONFIG_TMP_DIR_LOCATION="${PROOT}/build/tmp"
 
 #
 # Devtool Workspace Location
@@ -284,4 +285,3 @@ CONFIG_YOCTO_NETWORK_SSTATE_FEEDS_URL="https://petalinux.xilinx.com/sswreleases/
 #
 CONFIG_USER_LAYER_0=""
 CONFIG_SUBSYSTEM_BOOTARGS_GENERATED="earlycon console=ttyPS1,115200 root=/dev/ram0 rw init_fatal_sh=1 cma=900M"
-CONFIG_TMP_DIR_LOCATION="${PROOT}/build/tmp"

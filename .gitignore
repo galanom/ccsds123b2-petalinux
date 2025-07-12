@@ -14,11 +14,14 @@ components/yocto
 
 project-spec/configs/*.dtb
 project-spec/configs/*.pp
-project-spec/hw-description/*.bit
+project-spec/configs/configs/
+project-spec/configs/rootfsconfigs/
 project-spec/configs/ip_drv_map.yaml
 project-spec/configs/petalinux_config.yaml
 project-spec/configs/.statistics
 project-spec/configs/DRVLISTConfig.cmake
+project-spec/configs/gen-machineconf.log.old
+project-spec/hw-description/*.bit
 .petalinux
 README
 hardware

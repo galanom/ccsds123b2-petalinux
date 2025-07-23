@@ -4,3 +4,5 @@
 CONFIG_gpio-demo
 CONFIG_peekpoke
 CONFIG_packagegroup-kria
+CONFIG_ccsds123b2-kmod
+CONFIG_ccsds123b2-fw
